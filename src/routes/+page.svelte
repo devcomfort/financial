@@ -64,7 +64,7 @@
   <div class="input-group">
     <Datepicker
       datepickerButtons={true}
-      datepickerFormat={DATE_SCHEMA}
+      datepickerFormat={"yyyy/mm/dd"}
       bind:values={dates}
     />
     <input type="number" placeholder="수입 금액" bind:value={inputNumber} />
